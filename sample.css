@@ -1,0 +1,201 @@
+*{
+  box-sizing: border-box;
+}
+ html, body{
+margin: 0;
+padding: 0;
+ }
+ body{
+  margin-top: 50px;
+}
+.logo{
+  float: left;
+  margin-left: 50px;
+}
+li{
+  list-style-type: none;
+}
+nav ul{
+    float: right;
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li{
+  float: left;
+  position: relative;
+}
+nav ul li a{
+  padding: 15px;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.black{
+  color: black;
+  border: 1px solid black;
+}
+.green{
+  color: green;
+
+}
+.text{
+ float: left;
+ font-weight: bold;
+ font-size: 70px;
+ margin-left: 50px;
+ margin-top: 50px;
+}
+.card{
+float: right;
+margin-right: 100px;
+box-shadow: -0.21px 0px 30px orange;
+ margin-top: 100px;
+}
+input[type=text]{
+  height: 50px;
+  color: black;
+  width: 175px;
+}
+input[type=email]{
+  height:50px;
+  width: 200px;
+}
+input[type=submit]{
+  height: 50px;
+  width: 150px;
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: green;
+}
+.input{
+  margin-top: 50px;
+}
+.box{
+  height: 670px;
+}
+.icon{
+  text-align: center;
+}
+.icon img{
+  margin: 30px;
+}
+.image1{
+  float: left;
+}
+.image2{
+  float: right;
+}
+.images{
+  height: 700px;
+  overflow: hidden;
+}
+.image2 div{
+  font-size: 2.3em;
+  font-weight: lighter;
+  font-family:sans-serif;
+}
+.hiw{
+  border: 1px solid black;
+  padding: 50px;
+  margin: 50px;
+  float: left;
+  width: 90%;
+}
+.how{
+  font-size: 2.0em;
+}
+.bold{
+  font-weight: bold;
+  font-size: 2.1em;
+  font-family:sans-serif;
+}
+.spend{
+  margin-top: 120px;
+  font-size: 1.5em;
+  width: 400px;
+  margin-left: 0px;
+}
+.write{
+float: left;
+}
+.app{
+  float: right;
+  width: 450px;
+}
+.rib{
+  height: 300px;
+  background-size: cover;
+  background-image: url(office.jpg);
+  opacity: 0.9;
+  padding: 50px;
+}
+.border{
+  height: 950px;
+}
+.ribtx{
+ font-weight: bolder;
+ font-size: 2.8em;
+ color: white;
+
+}
+.team{
+  height: 30px;
+  border: 1px solid white;
+  text-align:center;
+  width: 100px;
+  margin:20px;
+}
+.team a{
+   color: white;
+   text-decoration: none;
+}
+.footer
+{
+  color: white;
+  background-color: black;
+  height: 400px;
+  padding: 50px;
+}
+.fhead{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.fwidth{
+  width: 300px;
+}
+.col-4{
+  width: 300px;
+  display: inline-block;
+}
+.fcontent ul li a{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.finput{
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 30px;
+  height: 40px;
+  width: 650px;
+  margin-left: 300px;
+  margin-right: 200px;
+}
+.finput input[type=submit]{
+  background-color: grey;
+  height: 35px;
+  border-radius: 30px;
+  float: right;
+  margin: 1px;
+}
+.finput input[type=email]{
+  background-color: black;
+  height: 35px;
+  float: left;
+  border: none;
+  margin-left: 30px;
+}
+.address{
+}
